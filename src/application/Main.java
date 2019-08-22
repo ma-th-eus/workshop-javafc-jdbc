@@ -24,7 +24,7 @@ public class Main extends Application {
 			mainScene = new Scene(scrollPane);
 			primaryStage.setScene(mainScene);
 			primaryStage.setTitle("Workshop JavaFX and JDBC");
-			primaryStage.setFullScreen(true);
+			//primaryStage.setFullScreen(true);
 			primaryStage.show();
 		} catch (IOException e) {
 			e.printStackTrace();
